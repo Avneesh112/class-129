@@ -29,7 +29,7 @@ function draw(){
     remove_decimals = floor(inInumberLeftWristY);
     volume = remove_decimals/500 ; 
     document.getElementById('volume').innerHTML="volume = "+ volume;
-    song.setvolume(volume);
+    song.setVolume(volume);
     }
 }
 
